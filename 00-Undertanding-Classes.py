@@ -34,3 +34,7 @@ print type(a), type(a.r), type(a.i), a.r, a.i
 
 # TypeError: __init__() takes exactly 3 arguments (1 given)
 # print initargu().r
+"""
+The only operations understood by instance objects are attribute references.
+There are two kinds of valid attribute names, data attributes and methods.
+"""
